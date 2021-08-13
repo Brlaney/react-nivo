@@ -5,7 +5,6 @@ import './scss/App.scss';
 import { data } from './lib/data/chord'
 
 
-
 function App() {
   return (
     <div className='App'>
