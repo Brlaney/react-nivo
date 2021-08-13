@@ -1,0 +1,48 @@
+@import './theme/theme';
+
+// box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+.App {
+  font-family: $primary-font;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: $bg-dark;
+  color: lightgrey;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+
+  #container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+    #chart-container {
+      background-color: $bg-light;
+      padding: 2rem 1rem 1.5rem 1rem;
+      align-self: center;
+      border-radius: 8px;
+
+      .grid {
+        .parent {
+          max-width: 1200px;
+          margin: 10px 'auto'0 'auto';
+
+          .graph-container {
+            padding: 0.33rem;
+          }
+        }
+      }
+    }
+  }
+}
