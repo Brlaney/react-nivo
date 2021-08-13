@@ -1,8 +1,8 @@
 import React from 'react';
 import ChordGraph from './components/ChordGraph'
 // import Carousel from './components/Carousel';
+// import { data } from './lib/data/chord'
 import './scss/App.scss';
-import { data } from './lib/data/chord'
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             {/* Grid card 1 */}
             <div id='parent'>
               <div id='graph-container' className='uk-card uk-card-default uk-card-body'>
-                <ChordGraph data={data} />
+                <ChordGraph />
               </div>
             </div>
 

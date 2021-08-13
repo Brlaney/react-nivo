@@ -3,7 +3,7 @@ import { ResponsiveChord } from '@nivo/chord'
 import { matrix } from '../lib/data/chord'
 
 
-const ChordGraph = ({ matrix: any }) => (
+const ChordGraph = ({ matrix }) => (
   <ResponsiveChord
     matrix={matrix}
     keys={['John', 'Raoul', 'Jane', 'Marcel', 'Ibrahim']}
